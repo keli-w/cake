@@ -1,0 +1,247 @@
+/* **********************************顶部 *************************/
+#top{
+    height:30px;
+    line-height: 30px;
+    background: #f9f9f9;
+}
+#top .t_right{
+    width:400px;
+    float: right;
+}
+#top .t_right span{
+    margin-left: 30px;
+}
+#top .t_right img{
+    padding-top:8px;
+    padding-right: 5px;
+}
+#top .t_right a{
+    padding:0 5px;
+}
+.phone{
+    text-decoration: underline;
+}
+#bottom{
+    height:124px;
+    background: #fff;
+}
+#bottom .logo{
+    height:56px;
+}
+#bottom .select_city{
+    float: left;
+    margin-top:20px;
+}
+#bottom .logo_img{
+    float: left;
+    margin-left: 235px;
+    margin-top:15px;
+}
+#bottom .search{
+    float: right;
+    margin-top:20px;
+}
+#bottom .search input{
+    width:230px;
+    height:32px;
+    border:0;
+    border-bottom: 1px solid;
+}
+.search a:last-child strong{
+    display: inline-block;
+    width:15px;
+    height:15x;
+    text-align: center;
+    border-radius:50%;
+    background:#ff4001;
+}
+.search a:last-child strong b{
+    color:#fff;
+}
+#bottom .search img{
+    padding-top:10px;
+    margin:0 5px;
+}
+#bottom .nav{
+    height:68px;
+}
+.nav{
+    width:780px;
+    margin:0 auto;
+}
+.nav .dropdown{
+    width:780px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav .dropdown>li{
+    width:110px;
+    height:30px;
+    float: left;
+    font-size: 16px;
+    line-height: 30px;
+    /* padding:10px 0; */
+}
+.nav .dropdown>li a{
+    display:inline-block;
+    width:110px;
+    height:30px;
+    padding:10px 0;
+    text-align: center;
+}
+.nav .dropdown>li a:hover{
+    color:#ff4001;
+}
+.nav .drop{
+    position: relative;
+}
+.nav .sub_menu{
+    display: none;
+    width:110px;
+    z-index: 22;
+    position: absolute;
+    left:0px;
+    top:52px;
+}
+
+.on{
+    border-bottom:2px solid red;
+}
+/******************************** 顶部固定 **************************************************/
+#head_fix{
+    width:1200px;
+    padding:0 74.5px;
+    height:80px;
+    margin:0 auto;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 999;
+    display: none;
+}
+#head_fix .select_city{
+    float: left;
+    margin-top:20px;
+    margin-left: 150px;
+}
+#head_fix .logo_img>img{
+    display: block;
+    float: left;
+    margin-top:15px;
+}
+#head_fix .search{
+    float: right;
+    margin-top:10px;
+}
+#head_fix  .search input{
+    width:160px;
+    height:32px;
+    border:0;
+    border-bottom: 1px solid;
+    display: none;
+}
+#head_fix  .search img{
+    padding-top:10px;
+    margin:0 10px;
+}
+#head_fix  .nav{
+    height:60px;
+    width:508px;
+    margin:0 auto;
+    float: left;
+}
+#head_fix .nav .dropdown{
+    width:508px;
+    display: flex;
+    justify-content: space-around;
+}
+#head_fix .nav .dropdown>li{
+    width:76px;
+    height:20px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    padding:18px 0;
+}
+#head_fix .nav .dropdown>li a:hover{
+    color:#ff4001;
+}
+#head_fix .nav .sub_menu{
+    display: none;
+    width:110px;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+/******************************** 底部固定 **************************************************/
+.weixn{
+    width:76px;
+    height:76px;
+    position: fixed;
+    top:200px;
+    right:0px;
+    background: #fff;
+    text-align: center;
+    border:2px solid #f9f9f9;
+    z-index: 999;
+    
+}
+#t_fix img{
+    margin-top:5px;
+}
+#t_fix p{
+    margin-top:30px;
+}
+#t_fix .erweima{
+    display: block;
+    position: fixed;
+    top:100px;
+    right:120px;
+    display: none;
+    z-index: 999;
+}
+.kefu{
+    width:76px;
+    height:76px;
+    position: fixed;
+    top:300px;
+    right:0px;
+    text-align: center;
+    border:2px solid #f9f9f9;
+    background: #fff;
+    z-index: 999;
+}
+/************************* 底部 ***************************************************/
+#foot{
+    width:100%;
+    height:165px;
+    margin:0 auto;
+    text-align: center;
+    padding:40px 0 20px;
+    background:#ebebeb;
+}
+#foot p{
+    height:40px;
+    line-height: 40px;
+}
+#foot p:nth-child(1)>img{
+    margin-top:12px;
+    margin-right:15px;
+}
+#foot p:nth-child(2) a{
+    display: inline-block;
+    height:16px;
+    line-height: 16px;
+    padding:0 12px;
+    border-right: 1px solid #000;
+}
+#foot p:nth-child(2) a:last-child{
+    border-right: 0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>诺心蛋糕官网_生日蛋糕|水果蛋糕|芝士慕斯蛋糕|巧克力蛋糕-LE CAKE诺心蛋糕店网上订购</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/login_register.css">
+    <style>
+        #main .register_wrap{
+            width:370px;
+            height:450px;
+            background:#fff;
+            position: absolute;
+            top:20px;
+            right:170px;
+            margin:100px 80px 0 0;
+            padding-left: 35px;
+        }
+        #main .register_wrap p{
+            width:300px;
+            height:50px;
+           /*  margin:0px auto; */
+            text-align: center;
+            line-height: 50px;
+            font-size: 14px;
+        }
+        #main .register_wrap p:first-child{
+            color:red;
+        }
+        #main .register_wrap p:nth-child(2) input{
+            width:250px;
+            height:30px;
+            border:0;
+            border-bottom: 1px solid;
+            margin:15px 0;
+
+        }
+        #main .register_wrap p input{
+            width:250px;
+            height:30px;
+            border:0;
+            border-bottom: 1px solid;
+            margin:15px 0;
+        }
+        #main .register_wrap p:last-child input{
+            width:200px;
+            height:40px;
+            margin:15px 0;
+            background: chocolate;
+        }
+        i{
+            padding-right: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="register_wrap">
+            <form name="frm" action="../php/register.php" method="GET" onsubmit="return checkAll()">
+                <p>账号注册</p>
+                <p><i>😀</i><input type="text" placeholder="请输入账户名" name="user" onblur="checkUser()"></p><span></span>
+                <p><i>😀</i><input type="password" placeholder="请输入密码" name="pwd1" onblur="checkPwd1()"></p><span></span>
+                <p><i>😀</i><input type="password" placeholder="请再次输入密码" name="pwd2" onblur="checkPwd2()"></p><span></span>
+                <p><i>😀</i><input type="text" placeholder="请输入生日" name="birthday" onblur="checkBirth()"></p><span></span>
+                <p><i>😀</i><input type="number" placeholder="请输入电话号" name="phone" onblur="checkPhone()"></p><span></span>
+                <p><input type="submit" value="注册"></p>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login_register.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

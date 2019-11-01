@@ -1,0 +1,243 @@
+/* 轮播图 */
+#banner{
+    width:100%;
+    height: 425px;
+  }
+  #banner  .swiper-container {
+    width: 100%;
+    height: 425px;
+  }
+  #banner .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  #banner  .swiper-slide img{
+      width:100%;
+      height:425px;
+  }
+  .swiper-container{
+    --swiper-theme-color: #fff;
+}
+/* cake列表 */
+#shoping{
+  width:1200px;
+  height:1025px;
+  padding:20px;
+  margin:0 auto;
+  background: #f9f9f9;
+  position: relative;
+  top:-65px;
+  left:0;
+  z-index: 3;
+}
+#coupon{
+  width:598px;
+  height:256px;
+  float: left;
+}
+#coupon img{
+  width:598px;
+  height:256px;
+}
+.cake{
+  width:260px;
+  padding:19px;
+  margin:1px;
+  font-size: 14px;
+  text-align: left;
+  background: #fff;
+  float:left;
+}
+.cake:hover{
+  background:pink;
+}
+.cake img{
+  width:260px;
+}
+.cake>p{
+  padding:5px 0;
+  width:260px;
+}
+.cake>p span{
+ font-size: 12px;
+ color:#949494;
+}
+.buy{
+  margin:20px 0;
+}
+.buy p:first{
+  color:red;
+  font-size: 16px;
+  width:260px;
+}
+.buy p:last{
+  width:260px;
+}
+.red{
+  color:red;
+  font-size: 12px;
+}
+/* 评论 */
+#pinglun{
+  width: 1120px;
+  height: 302px;
+  margin:0 auto;
+  padding:0 40px 20px 40px;
+}
+#pinglun h2{
+  padding:20px 0;
+  font-size: 18px;
+  color:#3e3e3e;
+  text-align: center;
+}
+#pinglun .swiper-container {
+  width: 1100px;
+  height: 240px;
+  margin:0 auto;
+  --swiper-navigation-size:12px;
+  overflow: hidden;
+}
+#pinglun .swiper-slide {
+  width:360px !important;
+  height: 240px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#pinglun .swiper-slide  img{
+  width:360px;
+  height: 240px;
+  margin:0px;
+  padding:0px;
+}
+#pinglun .swiper-slide  p:nth-child(2){
+  width:330px;
+  height:27px;
+  position: absolute;
+  left:10px;
+  color:#fff;
+  font-size: 18px;
+}
+#pinglun .swiper-slide  p:nth-child(3){
+  width:330px;
+  height:50px;
+  position: absolute;
+  top:130px;
+  left:10px;
+  color:#fff;
+  font-size: 14px;
+}
+#pinglun .swiper-button-next{
+  width:30px;
+  height:120px;
+  color:#3e3e3e;
+  background: paleturquoise;
+  position: absolute;
+  top:30%;
+  right:0px;
+}
+#pinglun .swiper-button-prev{
+  width:30px;
+  height:120px;
+  background: paleturquoise;
+  color:#3e3e3e;
+  position: absolute;
+  top:30%;
+  left:0px;
+}
+/*********** 加入购物车弹窗*********/
+.tanchuan{
+  width:450px;
+  height:380px;
+  background:#fff;
+  z-index:999;
+}
+.tanchuan h3{
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  margin:0 10px;
+  border-bottom:1px solid sienna;
+}
+.tanchuan>p:nth-child(2){
+  height:60px;
+  line-height: 60px;
+}
+.tanchuan>p:nth-child(2) a{
+  display: inline-block;
+  width:90px;
+  height:60px;
+  text-align: center;
+  font-size: 12px;
+  background: rgba(222, 222, 222, 0.6);
+  cursor: pointer;
+}
+.tanchuan>p:nth-child(3){
+  height:50px;
+  line-height: 50px;
+  margin:0 10px 20px 10px;
+  border-bottom:1px solid sienna;
+  font-size: 14px;
+}
+.tanchuan>p:nth-child(3) span{
+  padding-right: 300px;
+}
+.tanchuan>p:nth-child(3) i{
+  color:red;
+  font-style: normal;
+}
+.tanchuan div{
+  height:100px;
+  margin:0 10px 20px 10px;
+  border-bottom:1px solid sienna;
+}
+.tanchuan div p{
+  width:135px;
+  height: 30px;
+  float:left;
+  margin:0;
+}
+.tanchuan button{
+  width:150px;
+  height: 50px;
+  font-size: 16px;
+  color:#fff;
+  background:chocolate;
+  margin-left: 150px;
+}
+/******** 关闭弹窗按钮 ******/
+.close_btn{
+  font-size: 38px;
+  padding-left: 300px;
+  color:chocolate;
+  cursor: pointer;
+}
